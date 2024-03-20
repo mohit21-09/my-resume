@@ -453,6 +453,12 @@ button:focus {
 .mb-blue{
     background-color: #2857a4;
 }
+.mb-skyblue{
+    background-color: skyblue;
+}
+.mb-cyan{
+    background-color: cyan;
+}
 .mb-orange{
     background-color: #ec4d1c;
 }
