@@ -229,6 +229,34 @@ section:nth-child(2n+1){
     height: 66%;
     color: #433E3F;
 }
+@media screen and (max-width:600px) {
+    #timeline-divider{
+        left: 8% ;
+       
+    } 
+    .timeline-box{
+        left: 12% !important;
+        width: 80%;
+    }
+    /* .timeline-box:nth-child(2n){
+        left: 12%;
+    } */
+
+    .timeline-box::after{
+        left: -7.5% !important;
+    }
+    /* .timeline-box:nth-child(2n+1)::after {
+   left: -7.5%;
+    }
+    .timeline-box:nth-child(2n)::after {
+        left: -7.5%;
+         } */
+         html{
+            font-size: 15px;
+           
+         }
+       
+}
 
 #timeline-divider .timeline-traveller {
     position: sticky;
@@ -453,18 +481,19 @@ button:focus {
 .mb-blue{
     background-color: #2857a4;
 }
-.mb-skyblue{
-    background-color: #87CEEB;
-}
-.mb-cyan{
-    background-color: #00FFFF;
-}
 .mb-orange{
     background-color: #ec4d1c;
 }
 .mb-lightpurple{
     background-color: #ac3d94;
 }
+.mb-lightblue{
+    background-color: #87cefa;
+}
+.mb-cyan{
+    background-color: #ffa07a;
+}
+
 
 /* percentage classes */
 .eighty-five-percent{
